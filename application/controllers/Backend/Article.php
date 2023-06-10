@@ -13,7 +13,7 @@ class Article extends MY_Controller{
 
                 if($title == '' || $article == ''){
                     $notif = 'Title dan Article tidak boleh kosong';
-                }else{    
+                }else{     
                      $post = new Post();
                      $post->title = $title;
                      $post->article = $article;
